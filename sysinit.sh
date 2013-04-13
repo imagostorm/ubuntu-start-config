@@ -8,7 +8,7 @@
 #apt-get update
 
 
-SOFT_STRING="filezilla padre geany netbeans everpad kopete mysql-workbench putty git"
+SOFT_STRING="filezilla padre geany netbeans everpad kopete mysql-workbench putty git podbrowser git-cola bluefish meld dia umbrello"
 for PNAME in $SOFT_STRING 
 	do
 		`apt-get install -y $PNAME >> /dev/null`
